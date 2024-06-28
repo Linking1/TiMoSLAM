@@ -2,7 +2,7 @@
 ## Bridging the Gap between Semantics and Geometry in SLAM: A Semantic-Geometric Tight-coupling Monocular Visual Object SLAM System
 
 ## 1. Introduction
-**TiMoSLAM**  considers a rigorous correspondence between semantic information and geometric features in object SLAM. Initially, a general Semantic Relation Graph (SRG) is developed to consistently represent semantic information alongside geometric features. Detailed analyses on constraint relations between basic geometric features and the 3D cuboid model of an object enable the explicit presentation of geometric feature combinations that provide complete constraints for accurate 3D object model estimation. Subsequently, a novel Compound Hypothesis Tree (CHT) is proposed to hypothesize the matching relations between geometric features and the cuboid, and incrementally construct the object-specific SRG from bottom to top. With the object-specific SRG, 3D objects can be detected, and their cuboid models can be estimated concurrently, ensuring semantic-geometric consistency in object representation and detection. Special attention is given to the matching errors between geometric features and objects during the optimization of camera poses and object parameters.
+**TiMoSLAM** considers a rigorous correspondence between semantics and geometry across all steps of SLAM. Initially, a general Semantic Relation Graph (SRG) is developed to consistently represent semantic information alongside geometric features. Detailed analyses on complete constraints of the geometric feature combinations on estimation of 3D cuboid model are performed. Subsequently, a Compound Hypothesis Tree (CHT) is proposed to incrementally construct the object-specific SRG and concurrently estimate the 3D cuboid model of an object, ensuing semantic-geometric consistency in object representation and estimation. Special attention is given to the matching errors between geometric features and objects during the optimization of camera poses and object parameters. The effectiveness of this method is validated on various datasets, as well as in real-world environments.
 
 
 <div align="center">
@@ -28,7 +28,7 @@ Fig. 2 The object maps construct by TiMoSLAM in two real-world scenes.</font>
 <br>
 
 <div align="center">
-<img src="pics/3Dresult.png" width="90%" />
+<img src="pics/3Dresult.jpg" width="90%" />
 </div>
 
 <div align="center">
