@@ -2,8 +2,9 @@
 ## Bridging the Gap between Semantics and Geometry in SLAM: A Semantic-Geometric Tight-coupling Monocular Visual Object SLAM System
 
 ## 1. Introduction
+<div style="text-align: justify;">
 **TiMoSLAM** considers a rigorous correspondence between semantics and geometry across all steps of SLAM. Initially, a general Semantic Relation Graph (SRG) is developed to consistently represent semantic information alongside geometric features. Detailed analyses on complete constraints of the geometric feature combinations on estimation of 3D cuboid model are performed. Subsequently, a Compound Hypothesis Tree (CHT) is proposed to incrementally construct the object-specific SRG and concurrently estimate the 3D cuboid model of an object, ensuing semantic-geometric consistency in object representation and estimation. Special attention is given to the matching errors between geometric features and objects during the optimization of camera poses and object parameters. The effectiveness of this method is validated on various datasets, as well as in real-world environments.
-
+</div>
 
 <div align="center">
     <img src="pics/MapTUM.png" width = 90% >
