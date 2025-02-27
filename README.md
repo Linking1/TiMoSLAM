@@ -117,7 +117,7 @@ Fig. 5 The videos of TiMoSLAM in TUM fr3_cabinet and a real-world scenes.</font>
 </div>
 
 ## 4 Notation
-Thank you very much, [CubeSLAM](https://github.com/shichaoy/cube_slam). This is the source of inspiration for this paper. The code of Object SLAM released now is exclusive to TUM fr3_cabinet. After the paper is received, the complete code will be released.
+Thank you very much, [CubeSLAM](https://github.com/shichaoy/cube_slam). This is the source of inspiration for this paper. The code of Object SLAM released now is exclusive to TUM fr3_cabinet. After the paper is received, the complete code will be released. I really hope this paper can be accepted before March 3rd to support my graduation and job search.
 
 ## 5 License
 TiMoSLAM was developed at the Nankai University of Tianjin, China.
